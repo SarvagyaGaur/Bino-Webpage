@@ -1,0 +1,255 @@
+
+.App {
+  text-align: left;
+  background-color: #e5e5e5;
+  color: #ababab;
+  font-size: 10px;
+  display: flex;
+}
+
+.Img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: flex;
+}
+
+.Img-style {
+  width: 100%;
+  height: 300px;
+}
+
+.Img-text-name {
+  position: absolute;
+  bottom: 55px;
+  left: 32px;
+  font-size: 42px;
+  text-shadow: 0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
+}
+
+.Img-text-open {
+  position: absolute;
+  bottom: 15px;
+  left: 60px;
+  font-size: 23px;
+  text-shadow: 0.07em 0 black,
+  0 0.07em black,
+  -0.07em 0 black,
+  0 -0.07em black;
+}
+
+.Img-text-location {
+  position: absolute;
+  bottom: 15px;
+  left: 180px;
+  font-size: 23px;
+  text-shadow: 0.07em 0 black,
+  0 0.07em black,
+  -0.07em 0 black,
+  0 -0.07em black;
+}
+
+.Info-container {
+  display: flex;
+  border-radius: 25px;
+  background: #f6f6f6;
+  padding: 20px;
+  width: 95.5%;
+  height: 35px;
+  margin: 15px;
+  margin-top: 8px;
+  box-shadow: 2px 2px 2px black;
+  position: relative;
+  text-align: center;
+}
+
+.Boxtext-left {
+  position: absolute;
+  left: 6%;
+  top: 22px;
+  color: black;
+  font-size: 20px;
+}
+
+.Boxtext-center-left {
+  position: absolute;
+  left: 35%;
+  top: 22px;
+  color: black;
+  font-size: 20px;
+}
+
+.Boxtext-center-right {
+  position: absolute;
+  right: 30%;
+  top: 22px;
+  color: black;
+  font-size: 20px;
+}
+
+.Boxtext-right {
+  position: absolute;
+  right: 6%;
+  top: 22px;
+  color: black;
+  font-size: 20px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.Promotions-container {
+  display: flex;
+  flex: 1;
+}
+
+.Button-container {
+  margin-top: 16px;
+  flex: 1;
+  margin-left: 40px;
+}
+
+.Boni-coins {
+  margin-top: 8px;
+  flex: 1;
+  height: 30px;
+  border: 1px solid black;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  margin-right: 25px;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #a1c9aa;
+  text-align: center;
+  color: #0b4118;
+}
+
+.Button {
+  width: 30%;
+  text-align: right;
+  vertical-align: text-top;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #a1c9aa;
+  border-radius: 5px;
+  padding: 20px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Button:hover , .Menu-button:hover , .About-button:hover, .Add-items-buttons:hover {
+	opacity: 0.95;
+}
+
+.Button:active , .Menu-button:active , .About-button:active, .Add-items-buttons:active {
+	opacity: 0.9;
+}
+
+.Menu-about {
+  display: flex;
+  justify-content: center;
+}
+
+.Menu-button {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  background-color: #24acbc;
+  border-radius: 5px;
+  padding: 10px 25px 10px 25px;
+}
+
+.About-button {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  background-color: #8bd8e0;
+  border-radius: 5px;
+  padding: 10px 25px 10px 25px;
+}
+
+.Search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Search {
+  width: 40%;
+}
+
+.Menu-recommended {
+  margin-left: 15px;
+  margin-top: 7px;
+  color: black;
+  font-size: 18px;
+}
+
+.Small-img-container {
+  display: flex;
+  background-color: #ababab;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Small-img-style {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+}
+
+.Menu-items {
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  margin-left: 20px;
+  font-size: 25px;
+  margin-right: 880px;
+}
+
+h2 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.Add-item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Add-items-buttons, .Added-items {
+  display: inline-block;
+  flex-direction: row;
+  padding: 4px; 
+}
+
+.Add-items-buttons {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #a1c9aa;
+  color: white;
+  font-size: 15px;
+  border: 1px;
+}
+
+
+
+
